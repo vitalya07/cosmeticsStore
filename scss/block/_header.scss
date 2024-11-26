@@ -40,8 +40,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
-        gap: 5px;
+        gap: 30px;
         &-links {
             display: flex;
             align-items: center;
@@ -60,7 +59,7 @@
         &-link {
             max-width: 150px;
             max-height: 45px;
-            font-family: "Roboto", sans-serif;
+            font-family: "Noto Serif Ahom", serif;
             font-weight: 400;
             font-size: 20px;
             color: #000;
