@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
   padding: 15px 0;
   margin-bottom: 50px;
+  background-color: #442821;
 }
 .header__wrapper {
   display: -webkit-box;
@@ -173,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slider {
-  margin-bottom: 50px;
+  margin-bottom: 150px;
   width: 100%;
 }
 .slider__item {
@@ -191,15 +192,42 @@ h1, h2, h3, h4, h5, h6 {
      object-fit: cover;
 }
 
+.scrubs {
+  margin-bottom: 50px;
+}
+.scrubs__bg {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/skrub-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 100px;
+  position: relative;
+}
+.scrubs__bg-title {
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
+  font-weight: 400;
+  font-size: 50px;
+  color: #000;
+  line-height: 62px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
 .scrubs__wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-template-rows: minmax(400px, auto);
   grid-auto-rows: minmax(400px, auto);
   gap: 30px;
+  background-color: #c9b6a9;
+  border-radius: 29px;
 }
 .scrubs__item {
-  padding: 10px 20px;
+  padding: 20px 30px;
 }
 .scrubs__item-slider {
   margin-bottom: 10px;
